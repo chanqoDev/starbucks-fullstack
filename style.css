@@ -36,6 +36,9 @@ img {
     max-width: 100%;
 }
 
+section a {
+    color: #fff; 
+}
 /* Navbar */
 .navbar {
 width: 100%;
@@ -97,6 +100,18 @@ box-shadow: 0 1px 3px rgb(0 0 0 / 10%),
 .navbar-nav-right li:nth-child(2) {
 margin: 0 5px; 
 }
+
+/* Box */
+.box {
+    margin-bottom: 30px;
+}
+
+.box-inner {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
 
 /* Utilty classes for Buttons */
 .btn {
@@ -179,3 +194,37 @@ margin: 0 5px;
     margin-bottom: 20px;
 }
 
+/* Padding  */
+.py-sm {
+    padding: 10px 0; 
+}
+
+.py-md {
+    padding: 20px 0; 
+}
+
+.py-lg {
+    padding: 40px 0; 
+}
+
+@media(max-width: 960px) {
+      .text-xl {
+        font-size: 30px;
+      }
+
+      .text-lg {
+          font-size: 25px;
+      }
+
+      .text-md {
+          font-size: 19px;
+      }
+}
+
+@media(min-width:1140px) {
+    .box {
+      max-width: 1440px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+}
