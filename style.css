@@ -275,6 +275,7 @@ margin: 0 5px;
     border: none; 
     z-index: 10;
     transition: all 0.25s;
+    display: none;
 }
 
 .hamburger-top,
@@ -297,6 +298,15 @@ margin: 0 5px;
     transform: translateY(14px)
 }
 
+.open .hamburger-top {
+ transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+.open .hamburger-middle {
+display: none; 
+}
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
 @media (max-width: 960px) {
       .text-xl {
         font-size: 30px;
@@ -312,6 +322,9 @@ margin: 0 5px;
 }
 
 @media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
     .grid-col-2 {
         grid-template-columns: 1fr;
     }
