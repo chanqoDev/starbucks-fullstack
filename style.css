@@ -265,7 +265,7 @@ margin: 0 5px;
     padding: 40px 0; 
 }
 
-@media(max-width: 960px) {
+@media (max-width: 960px) {
       .text-xl {
         font-size: 30px;
       }
@@ -278,13 +278,37 @@ margin: 0 5px;
           font-size: 19px;
       }
 }
+@media (max-width: 768px) {
+    .grid-col-2 {
+        grid-template-columns: 1fr;
+    }
 
-@media(min-width: 1440px) {
+    .grid-reversed :first-child {
+        order: 0;
+    }
+
+    .navbar-brand img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .navbar .navbar-nav-left, 
+    .navbar .navbar-nav-right {
+        display: none;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1440px) {
     .box {
       max-width: 1440px;
       margin-right: auto;
       margin-left: auto;
     }
+
     .divider {
          max-width: 90%;
     }
