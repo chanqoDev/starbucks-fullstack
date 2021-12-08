@@ -101,6 +101,37 @@ box-shadow: 0 1px 3px rgb(0 0 0 / 10%),
 margin: 0 5px; 
 }
 
+/* Footer & Social */
+.footer-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto; 
+    padding: 0 30px 30px; 
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+.social {
+    display: flex; 
+    align-items: center;
+    margin: 20px 0; 
+}
+
+.social a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.divider {
+    width: 95%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px auto; 
+}
+
 /* Box */
 .box {
     margin-bottom: 30px;
@@ -248,10 +279,13 @@ margin: 0 5px;
       }
 }
 
-@media(min-width:1140px) {
+@media(min-width: 1440px) {
     .box {
       max-width: 1440px;
       margin-right: auto;
       margin-left: auto;
+    }
+    .divider {
+         max-width: 90%;
     }
 }
