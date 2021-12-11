@@ -1,6 +1,8 @@
 # Starbucks with Store Locator
 
 
-## This starbucks website build with Christmas theme responsive layout. 
+## This Starbucks Website build with a Christmas Theme Responsive Layout. 
 
-### Front-End Technologies: HTML, CSS and vanilla Javascript
+### Front-End Technologies: HTML, DOM, CSS, Bootstrap, Javascript. 
+#### Back-end Technoglies: Node, Moongose, MongoDB, API Google Maps. 
+##### Project Manager Dependecies: NPM
